@@ -1,0 +1,74 @@
+* {
+  font-family: "Maple Mono NF";
+  font-weight: bold;
+  font-size: 12px;
+}
+
+window#waybar {
+  background: #161617;
+  color: white;
+}
+
+#custom-launch_wofi,
+#custom-lock_screen,
+#clock,
+#pulseaudio,
+#backlight,
+#taskbar,
+#workspaces,
+#tray {
+  background: #161617;
+  padding: 0.5em 0.75em;
+  opacity: 0.75;
+}
+
+#taskbar {
+  padding: 0;
+}
+
+#workspaces button {
+  all: unset;
+  color: white;
+  margin-right: 0.75em;
+}
+
+#workspaces button:hover {
+  color: white;
+  background: #161617;
+}
+
+#taskbar button {
+  padding: 0 0.5em;
+  border: 0;
+  transition: 0.2s ease;
+}
+
+#taskbar button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  opacity: 1;
+}
+
+#taskbar button.active {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#custom-launch_wofi {
+  padding-right: 1.15em;
+  margin-right: 0.5em;
+}
+
+#custom-lock_screen {
+  margin-left: 0.5em;
+}
+
+#tray {
+  margin-right: 0.5em;
+  padding-right: 0.9em;
+}
+
+#pulseaudio,
+#backlight {
+  border-radius: 0;
+}
+
+#pulseaudio.microphone {}
