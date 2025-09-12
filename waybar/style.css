@@ -5,8 +5,8 @@
 }
 
 window#waybar {
-  background: #331D5D;
-  color: white;
+  background: #FFBDE4;
+  color: #202020;
 }
 
 #custom-launch_wofi,
@@ -17,7 +17,7 @@ window#waybar {
 #taskbar,
 #workspaces,
 #tray {
-  background: #331D5D;
+  background: #FFBDE4;
   padding: 0.5em 0.75em;
   opacity: 0.75;
 }

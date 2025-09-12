@@ -3,3 +3,4 @@
 -- Add any additional options here
 
 vim.o.clipboard = "unnamedplus"
+vim.o.background = "dark"
