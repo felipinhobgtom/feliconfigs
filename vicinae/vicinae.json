@@ -1,8 +1,12 @@
 {
+    "closeOnFocusLoss": false,
     "faviconService": "google",
     "font": {
         "normal": "Red Hat Display",
         "size": 10
+    },
+    "keybinding": "default",
+    "keybinds": {
     },
     "popToRootOnClose": true,
     "rootSearch": {

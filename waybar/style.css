@@ -5,7 +5,7 @@
 }
 
 window#waybar {
-  background: #FFBDE4;
+  background: #F27A95;
   color: #202020;
 }
 
@@ -17,7 +17,7 @@ window#waybar {
 #taskbar,
 #workspaces,
 #tray {
-  background: #FFBDE4;
+  background: #F27A95;
   padding: 0.5em 0.75em;
   opacity: 0.75;
 }
