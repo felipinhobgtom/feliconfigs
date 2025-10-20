@@ -1,5 +1,5 @@
-@define-color bg #080808;
-@define-color bg2 #242b2e;
+@define-color bg rgba(8, 8, 8, 0.80);
+@define-color bg2 #ffffff;
 @define-color fg #dadada;
 /* @define-color red #e57474; */
 @define-color red #f76f53;
@@ -8,4 +8,4 @@
 @define-color blue #67b0e8;
 @define-color magenta #FF74B8;
 @define-color cyan #B587EA;
-@define-color gray #b3b9b8;
+@define-color gray #cacfce;
